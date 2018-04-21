@@ -4,7 +4,6 @@ class YouTubeDebugger extends React.Component {
   constructor(props) {
     super()
     this.state = {
-      js: {
         errors: [],
         user: null,
         settings: {
@@ -12,14 +11,11 @@ class YouTubeDebugger extends React.Component {
            video: { resolution: '1080p' }
         }
        }
-    }
 
     handleClickRate = () => {
       this.setState(
-        js: Object.assign({}, this.state.js, {
-            settings: Object.assign({}, this.state.js, {
-              bitrate: 12
-            }),
+        settings: Object.assign({}, this.state.js, {
+        bitrate: 12
           }),
       )
     }
