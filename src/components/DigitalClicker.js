@@ -5,7 +5,7 @@ export default class DigitalClicker extends React.Component {
   constructor(props) {
     super()
     this.state = {
-
+      timesClicked: 0
     }
   }
 
