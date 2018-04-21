@@ -3,7 +3,7 @@ import React from 'react'
 class YouTubeDebugger extends React.Component {
   constructor(props) {
     super()
-    this.state.js = {
+    this.state = {
       js { errors: [],
          user: null,
          settings: {
