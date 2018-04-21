@@ -3,7 +3,7 @@ import React from 'react'
 class YouTubeDebugger extends React.Component {
   constructor(props) {
     super()
-    this.state = {
+    this.state.js = {
       js { errors: [],
          user: null,
          settings: {
@@ -17,7 +17,7 @@ class YouTubeDebugger extends React.Component {
   render () {
     return (
       <button className="bitrate"> </button>
-      
+
     )
   }
 }
