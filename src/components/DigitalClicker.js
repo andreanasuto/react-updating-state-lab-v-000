@@ -9,7 +9,10 @@ export default class DigitalClicker extends React.Component {
     }
 
     update = () => {
-      this.setState()
+      this.setState({
+        
+      }
+      )
     }
   }
 
