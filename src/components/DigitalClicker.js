@@ -10,7 +10,7 @@ export default class DigitalClicker extends React.Component {
 
     update = () => {
       this.setState({
-        timesClicked: 1
+        timesClicked: this.state.timesClicked + 1
       }
       )
     }
