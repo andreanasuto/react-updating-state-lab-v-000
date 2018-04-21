@@ -9,7 +9,7 @@ export default class DigitalClicker extends React.Component {
     }
 
     this.handleClick = this.handleClickResolution.bind(this);
-    }
+  }
 
 
     function handleClick () {
