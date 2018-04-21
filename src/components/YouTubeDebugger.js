@@ -16,7 +16,7 @@ export default class YouTubeDebugger extends React.Component {
        }
     }
 
-    handleClickRate(e) {
+    handleClickRate() {
       this.setState({
         settings: {
           ...this.state.settings,
