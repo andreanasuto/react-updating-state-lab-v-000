@@ -8,7 +8,7 @@ export default class DigitalClicker extends React.Component {
       timesClicked: 0
     }
 
-    this.handleClick = this.handleClickResolution.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
 
