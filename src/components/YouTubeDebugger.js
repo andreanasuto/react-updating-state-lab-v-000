@@ -8,7 +8,9 @@ class YouTubeDebugger extends React.Component {
         user: null,
         settings: {
            bitrate: 8,
-           video: { resolution: '1080p' }
+           video: {
+             resolution: '1080p'
+           }
         }
        }
 
@@ -25,7 +27,6 @@ class YouTubeDebugger extends React.Component {
   render () {
     return (
       <button className="bitrate" onClick="handleClickRate"> </button>
-
     )
   }
 }
