@@ -19,6 +19,7 @@ class YouTubeDebugger extends React.Component {
           bitrate: 12
         }
       })
+    }
   }
 
   render () {
