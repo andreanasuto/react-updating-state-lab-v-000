@@ -14,16 +14,17 @@ export default class YouTubeDebugger extends React.Component {
            }
         }
        }
-       handleClickRate() {
-         this.setState({
-           settings: {
-             ...this.state.settings,
-             bitrate: 12,
-           },
-         })
-       }    }
+    this.handleClickRate = this.handleClickRate.bind(this);
+    }
 
-
+    handleClickRate() {
+      this.setState({
+        settings: {
+          ...this.state.settings,
+          bitrate: 12,
+        },
+      })
+    }
 
   render () {
     return (
