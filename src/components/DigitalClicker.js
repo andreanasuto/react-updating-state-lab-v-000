@@ -13,7 +13,7 @@ export default class DigitalClicker extends React.Component {
 
   render () {
     return (
-      <button onClick={update}> {this.state.timesClicked} </button>
+      <button onClick={this.update}> {this.state.timesClicked} </button>
     )
   }
 }
