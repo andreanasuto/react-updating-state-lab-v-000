@@ -15,7 +15,7 @@ export default class YouTubeDebugger extends React.Component {
         }
        }
     this.handleClickRate = this.handleClickRate.bind(this);
-    this.handleClickVideo = this.handleClickVideo.bind(this);
+    this.handleClickresolution = this.handleClickresolution.bind(this);
 
     }
 
@@ -31,6 +31,8 @@ export default class YouTubeDebugger extends React.Component {
   render () {
     return (
       <button className="bitrate" onClick={this.handleClickRate}> </button>
+      <button className="resolution" onClick={this.handleClickRate}> </button>
+
     )
   }
 }
