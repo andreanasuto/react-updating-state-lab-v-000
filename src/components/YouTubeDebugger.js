@@ -15,6 +15,8 @@ export default class YouTubeDebugger extends React.Component {
         }
        }
     this.handleClickRate = this.handleClickRate.bind(this);
+    this.handleClickVideo = this.handleClickVideo.bind(this);
+
     }
 
     handleClickRate() {
